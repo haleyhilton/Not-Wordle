@@ -53,7 +53,7 @@ document.addEventListener("keyup", (e) => {
     }
 })
 
-// checks that there's still space in the guess for this letter, finds the appropriate row, and puts the letter in
+// checks that there's still space, finds the right row, and puts  letter in
 function insertLetter (pressedKey) {
     if (nextLetter === 5) {
         return
